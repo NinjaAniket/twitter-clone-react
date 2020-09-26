@@ -1,0 +1,29 @@
+.feed {
+  flex: 0.4;
+  border-right: 1px solid rgb(56, 68, 77);
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+
+.feed__header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border: 1px solid rgb(56, 68, 77);
+  padding: 15px 20px;
+  background-color: var(--twitter-background);
+}
+
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+.feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+}

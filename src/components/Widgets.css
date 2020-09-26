@@ -1,0 +1,43 @@
+.widgets {
+  flex: 0.3;
+}
+
+.widgets__input {
+  background-color: var(--twitter-secondary-background);
+  margin: 10px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.widgets__input > input {
+  border: none;
+  background: inherit;
+  margin-left: 10px;
+}
+
+::placeholder {
+  font-size: 16px;
+}
+
+.widgets__search {
+  color: lightslategray;
+}
+
+.widgets__container {
+  padding: 20px;
+  margin-left: 15px;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: rgb(25, 39, 52);
+}
+
+.widgets__container > h2 {
+  font-size: 20px;
+}
+
+.twitter-tweet .twitter-tweet-rendered {
+  background-color: red !important;
+}
