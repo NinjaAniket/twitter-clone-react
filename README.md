@@ -10,7 +10,7 @@
 ![](twitter-clone.gif)
 
 
-###  Check out the demo deployed on netlify! 👋
+###  Check out the demo deployed on firebase ! 🔥
 https://twitter-clone-b7d28.web.app/
 
 
